@@ -1,0 +1,170 @@
+body{
+    box-sizing: border-box;
+    background-color: #EEE;
+    }
+    #container{
+    width: 600px;
+    height: 600px;
+    border: 1px solid #CCC;
+    margin: 0 auto;
+    background-color: #FFF;
+    }
+    #rouge, #vert, #bleu{
+    text-align: center;
+    }
+    #rouge{
+    width: 200px;
+    height: 200px;
+    background-color: #F00;
+    }
+    #vert{
+    width: 100px;
+    height: 100px;
+    background-color: #0F0;
+    }
+    #bleu{
+    width: 50px;
+    height: 50px;
+    background-color: #00F;
+    }
+
+    /*Block 1 floating*/
+   /* #block1{
+        width: 600px;
+        height: 600px;
+        border: 1px solid #CCC;
+        margin: 0 auto;
+        background-color: #FFF;
+        }
+    #block1 #rouge{
+        float: left;
+    }
+    #block1 #bleu{
+        float: left;
+    }
+    #block1 #vert{
+        float: right;
+    }
+    */
+
+    /*Block 2 */
+    /*
+    #container{
+        position: relative;
+    }
+    #rouge, #vert, #bleu{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #rouge{
+        z-index: 1;
+    }
+    #vert{
+        z-index: 2;
+    }
+    #bleu{
+        z-index: 3;
+    }
+    */
+
+    /*Block 3*/
+/*
+    #container{
+        position: relative;
+    }
+    #rouge, #vert, #bleu{
+        position: absolute;
+    }
+    #rouge{
+        z-index: 1;
+        top: 200px;
+        left: 200px;
+    }
+    #vert{
+        z-index: 2;
+        top: 250px;
+        left: 250px;
+    }
+    #bleu{
+        z-index: 3;
+        top: 275px;
+        left: 275px;
+    }
+
+   */
+
+   /*block 4*/
+
+/*
+#container{
+    position: relative;
+}
+#rouge, #vert, #bleu{
+    position: absolute;
+}
+#rouge{
+    z-index: 3;
+    top: 350px;
+    left: 350px;
+}
+#vert{
+    z-index: 2;
+    top: 300px;
+    left: 300px;
+}
+#bleu{
+    z-index: 1;
+    top: 275px;
+    left: 275px;
+}
+*/
+
+/*Block 5*/
+/*
+#container{
+    position: relative;
+}
+#rouge, #vert, #bleu{
+    position: absolute;
+}
+#rouge{
+   left: 200px;
+   bottom: 0; 
+}
+#vert{
+   left: 250px;
+   bottom: 200px; 
+}
+#bleu{
+   left: 275px;
+   bottom: 300px;
+}
+*/
+
+/*Bonus*/
+
+#container{
+    position: relative;
+}
+#rouge, #vert, #bleu{
+    position: absolute;
+}
+
+#rouge{
+    left: 200px;
+    bottom: 41px; 
+    transform: rotate(45deg);
+    z-index: 2;
+ }
+ #vert{
+    left: 441px;
+    bottom: 100px;
+    z-index: 1; 
+ }
+ #bleu{
+    left: 134px;
+    bottom: 151px;
+    transform: rotate(45deg);
+    z-index: 3;
+ }
